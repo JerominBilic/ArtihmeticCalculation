@@ -32,7 +32,10 @@ app.post("/",function(req,res){
     console.log(`Value 2: ${b}`);
     console.log(`Result: ${result}`);
 
-    res.send("Check the console")
+    res.send(`Operation: ${opname} <br>
+    Value 1: ${a} <br>
+    Value 2: ${b} <br>
+    Result: ${result}`);
 
 });
 
